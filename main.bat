@@ -7,7 +7,7 @@ wget https://raw.githubusercontent.com/acidanthera/OpenCorePkg/master/Utilities/
 echo Done!
 
 echo Downloading MacOS
-python3 macrecovery.py -b Mac-FFE5EF870D7BA81A -m 00000000000000000 download
+python3 macrecovery.py -b Mac-4B682C642B45593E -m 00000000000000000 download
 
 echo Preparing drive 
 "C:\Program Files\qemu\qemu-img.exe" convert -O vmdk -o compat6 com.apple.recovery.boot\BaseSystem.dmg recovery.vmdk
