@@ -1,6 +1,6 @@
 echo Installing requirements for installation 
 
-wget https://qemu.weilnetz.de/w64/qemu-w64-setup-20230629.exe
+wget https://qemu.weilnetz.de/w64/2023/qemu-w64-setup-20230407.exe
 qemu-w64-setup-20230629.exe
 wget https://raw.githubusercontent.com/acidanthera/OpenCorePkg/master/Utilities/macrecovery/macrecovery.py
 
